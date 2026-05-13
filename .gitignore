@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local input data (spectrum CSV trees)
+datas/*
+!datas/.gitkeep
+
+# Generated reports (*.pptx written here)
+output/*
+!output/.gitkeep
+
+# Nuitka
+batch_plot_pptx.build/
+nuitka-crash-report.xml
+
+# Local backup after --archive-source (do not publish)
+batch_plot_pptx.py.dev_only
